@@ -1,0 +1,20 @@
+*{
+  margin:0;
+  background-color: dimgray;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Розподіляє елементи рівномірно по висоті */
+  align-items: center; /* Центрує елементи по горизонталі */
+  height: 100vh; /* Задає висоту на весь екран */
+}
+
+.Heading{
+  margin: 3rem;
+  font-size: 2rem;
+  color:antiquewhite;
+}
+

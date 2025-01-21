@@ -1,0 +1,38 @@
+
+.Joke{
+font-size: 3.5rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between; /* Розподіляє елементи рівномірно по висоті */
+align-items: center;
+}
+p{
+    color:antiquewhite;
+    letter-spacing: 0.5px;
+    text-shadow: 4px 3px 0 #7A7A7A;
+    padding:10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    box-shadow:rgba(97, 96, 96, 0.39) 0px 10px 36px 0px, rgba(97,96, 96, 0.39) 0px 0px 0px 1p
+}
+button{
+    font-family: Garamond;
+    color:rgb(54, 54, 54);
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 1px 4px 11px rgba(77,73,70,0);
+    padding: 5px;
+    margin: 2rem;
+    font-size: 2.5rem;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    border-style:none;
+    cursor: pointer;
+    box-shadow:  rgba(0, 0, 0, 0.048) 0px 10px 36px 0px, rgba(0, 0, 0, 0.048) 0px 0px 0px 1px;;
+    transition-property: transform, box-shadow;
+    transition-duration: 0.5s ;
+
+}
+button:hover{
+    background-color: rgba(250, 235, 215, 0.747);
+    transform:matrix(1.05,0,0,1.05,0,0);
+    box-shadow:  rgba(241, 241, 241, 0.425) 0px 5px 36px 0px, rgba(241, 241, 241, 0.425) 0px 0px 0px 1px;;
+}
