@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: darkgrey;
+    font-size: 1.3rem;
+    color:black;
+}
+
+nav{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+.link{
+    margin: 20px;
+    text-decoration: none;
+}
+
+.link:visited{
+    text-decoration: none;  
+}
